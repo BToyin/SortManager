@@ -100,7 +100,8 @@ public class BinaryTreeImpl  implements BinaryTree, Sorter  {
         binaryTree.addElements(arrayCopy);
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList = binaryTree.getSortedTreeAscRecursion(rootNode, arrayList);
-        for (int i = 0; i < arrayCopy.length; i++) {
+        System.out.println(arrayList.size());
+        for (int i = 0; i <= arrayCopy.length; i++) {
             arrayToSort[i] = arrayList.get(i);
         }
         return arrayToSort;

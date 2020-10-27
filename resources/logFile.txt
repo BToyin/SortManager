@@ -1,3 +1,3 @@
-[DEBUG] 2020-10-25 17:03:21.403 [main] Starter - The user input for array size was: 20
-[DEBUG] 2020-10-25 17:03:21.411 [main] Starter - The random array produced is: [81, 93, 23, 33, 80, 7, 45, 71, 67, 45, 55, 56, 56, 51, 92, 35, 91, 12, 7, 33]
-[DEBUG] 2020-10-25 17:03:22.280 [main] Starter - The user choice for the sort algorithm to use was: 3
+[DEBUG] 2020-10-27 12:16:59.126 [main] Starter - The user input for array size was: 10
+[DEBUG] 2020-10-27 12:16:59.142 [main] Starter - The random array produced is: [4, 47, 43, 98, 98, 15, 6, 88, 15, 91]
+[DEBUG] 2020-10-27 12:17:00.681 [main] Starter - The user choice for the sort algorithm to use was: 3

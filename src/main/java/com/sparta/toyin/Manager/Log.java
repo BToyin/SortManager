@@ -1,6 +1,6 @@
-package com.sparta.toyin;
+package com.sparta.toyin.Manager;
 
-import com.sparta.toyin.View.UserInput;
+import com.sparta.toyin.Starter.Starter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

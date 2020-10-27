@@ -1,6 +1,6 @@
-package com.sparta.toyin;
+package com.sparta.toyin.Starter;
 
-import com.sparta.toyin.Sorters.BinaryTreeImpl;
+import com.sparta.toyin.Manager.ArrayGenerator;
 import com.sparta.toyin.Sorters.SortFactory;
 import com.sparta.toyin.Sorters.Sorter;
 import com.sparta.toyin.View.Printer;
@@ -10,8 +10,13 @@ public class Starter {
 
     public static void start() {
 
-        int[] input = ArrayGenerator.generatingArray();
         int sorterChoice = UserInput.userInputSorter();
+        int [] input = new int[UserInput.userInputArrays()];
+        if (sorterChoice == 3){
+            input = ArrayGenerator.generatingRandomArray(input);
+        } else {
+            input = ArrayGenerator.generatingArray(input);
+        }
         SortFactory sortFactory = new SortFactory();
         Sorter sorter = sortFactory.getSorter(sorterChoice);
         int[] arrayCopy = new int[input.length];

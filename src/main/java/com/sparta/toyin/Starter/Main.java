@@ -1,5 +1,4 @@
-package com.sparta.toyin;
-
+package com.sparta.toyin.Starter;
 
 public class Main
 {

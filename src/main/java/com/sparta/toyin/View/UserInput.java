@@ -1,7 +1,7 @@
 package com.sparta.toyin.View;
 
 import com.sparta.toyin.Exceptions.InvalidInputException;
-import com.sparta.toyin.Log;
+import com.sparta.toyin.Manager.Log;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
