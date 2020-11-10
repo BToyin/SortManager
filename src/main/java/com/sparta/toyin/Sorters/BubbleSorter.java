@@ -1,5 +1,8 @@
 package com.sparta.toyin.Sorters;
 
+import javax.enterprise.inject.Default;
+
+@Default
 public class BubbleSorter implements Sorter {
 
     @Override

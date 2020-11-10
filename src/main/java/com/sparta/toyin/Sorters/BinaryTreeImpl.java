@@ -3,11 +3,13 @@ package com.sparta.toyin.Sorters;
 import com.sparta.toyin.Exceptions.ChildNotFoundException;
 import com.sparta.toyin.Exceptions.ElementNotFoundException;
 
+import javax.enterprise.inject.Alternative;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Objects;
 
 
+@Alternative
 public class BinaryTreeImpl  implements BinaryTree, Sorter  {
 
     private Node rootElement;

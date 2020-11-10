@@ -1,5 +1,8 @@
 package com.sparta.toyin.Sorters;
 
+import javax.enterprise.inject.Alternative;
+
+@Alternative
 public class MergeSorter implements Sorter {
 
     public static int[] mergeArrays(int[] array ,int[] array1, int[] array2) {

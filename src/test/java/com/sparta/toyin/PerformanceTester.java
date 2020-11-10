@@ -19,15 +19,6 @@ public class PerformanceTester {
     }
 
 
-    @Test
-    @DisplayName("Testing BubbleSort performance")
-    public void bubbleSortPerformance() {
-        BubbleSorter bubbleSorter = new BubbleSorter();
-        long start = System.nanoTime();
-        bubbleSorter.sortArray(input);
-        long end = System.nanoTime();
-        System.out.println(end - start);
-    }
 
     @Test
     @DisplayName("Testing MergeSort performance")

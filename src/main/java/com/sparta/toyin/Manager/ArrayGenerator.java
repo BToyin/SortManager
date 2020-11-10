@@ -19,7 +19,7 @@ public class ArrayGenerator {
         return input;
     }
 
-    public static int[] generatingRandomArray(int [] input) {
+    public static int[] generatingUniqueArray(int [] input) {
 
         Random random = new Random();
         int upperBoundary = 100;

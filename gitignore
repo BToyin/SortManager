@@ -1,7 +1,7 @@
 # Compiled class file
-*.class
-# Log file
-*.log
+.class
+ Log file
+.log
 # Package Files #
 *.jar
 *.war
